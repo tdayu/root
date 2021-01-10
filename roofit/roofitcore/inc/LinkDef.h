@@ -352,5 +352,6 @@
 // The nomap options excludes the class from the roomap file
 #pragma link C++ options=nomap class std::map<string,TH1*>+ ;
 #pragma link off class RooErrorHandler+ ;
-#endif 
 #pragma link C++ class RooBinSamplingPdf+; 
+#pragma link C++ class RooBinAnalyticalPdf+;
+#endif 
